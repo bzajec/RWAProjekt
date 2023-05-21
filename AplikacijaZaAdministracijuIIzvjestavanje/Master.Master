@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="AplikacijaZaAdministracijuIIzvjestavanje.Master" %>
+<%@ Register Src="~/Navigacija.ascx" TagPrefix="uc1" TagName="Navigacija" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>PROJEKT</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/custom.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: rgb(208,255,211)">
+    <form id="form1" runat="server">
+        <uc1:Navigacija runat="server" id="Navigacija"/>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer 
+     style="position:fixed;
+     bottom:0;left:0;
+     width:100%;height:50px;
+     background:#8FE3F0; color: white;
+     display: flex; justify-content: center;
+     align-items: center;font-size:1.2rem">
+            <h4 style="color: black">Projekt</h4>
+        </footer>
+    </form>
+</body>
+</html>

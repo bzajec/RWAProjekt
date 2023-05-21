@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRABAZAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Djelatnik">
+    <Key>
+      <PropertyRef Name="IDDjelatnik" />
+    </Key>
+    <Property Name="IDDjelatnik" Type="Byte" Nullable="false" />
+    <Property Name="Ime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Prezime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DatumZaposlenja" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Zaporka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TipDjelatnikaID" Type="Byte" Nullable="false" />
+    <Property Name="TimID" Type="Byte" />
+    <NavigationProperty Name="ProjektDjelatniks" Relationship="Self.FKDjelatnik" FromRole="Djelatnik" ToRole="ProjektDjelatnik" />
+    <NavigationProperty Name="Tim" Relationship="Self.FKTim" FromRole="Djelatnik" ToRole="Tim" />
+    <NavigationProperty Name="TipDjelatnika" Relationship="Self.FKTipDjelatnika" FromRole="Djelatnik" ToRole="TipDjelatnika" />
+  </EntityType>
+  <EntityType Name="Klijent">
+    <Key>
+      <PropertyRef Name="IDKlijent" />
+    </Key>
+    <Property Name="IDKlijent" Type="Byte" Nullable="false" />
+    <Property Name="Naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Projekts" Relationship="Self.FKKlijent" FromRole="Klijent" ToRole="Projekt" />
+  </EntityType>
+  <EntityType Name="Projekt">
+    <Key>
+      <PropertyRef Name="IDProjekt" />
+    </Key>
+    <Property Name="IDProjekt" Type="Int16" Nullable="false" />
+    <Property Name="Naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="KlijentID" Type="Byte" Nullable="false" />
+    <Property Name="DatumOtvaranja" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="VoditeljProjektaID" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="Klijent" Relationship="Self.FKKlijent" FromRole="Projekt" ToRole="Klijent" />
+    <NavigationProperty Name="ProjektDjelatniks" Relationship="Self.FKProjekt" FromRole="Projekt" ToRole="ProjektDjelatnik" />
+  </EntityType>
+  <EntityType Name="ProjektDjelatnik">
+    <Key>
+      <PropertyRef Name="IDProjektDjelatnik" />
+    </Key>
+    <Property Name="IDProjektDjelatnik" Type="Int16" Nullable="false" />
+    <Property Name="ProjektID" Type="Int16" Nullable="false" />
+    <Property Name="DjelatnikID" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="Djelatnik" Relationship="Self.FKDjelatnik" FromRole="ProjektDjelatnik" ToRole="Djelatnik" />
+    <NavigationProperty Name="Projekt" Relationship="Self.FKProjekt" FromRole="ProjektDjelatnik" ToRole="Projekt" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tim">
+    <Key>
+      <PropertyRef Name="IDTim" />
+    </Key>
+    <Property Name="IDTim" Type="Byte" Nullable="false" />
+    <Property Name="Naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DatumKreiranja" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Djelatniks" Relationship="Self.FKTim" FromRole="Tim" ToRole="Djelatnik" />
+  </EntityType>
+  <EntityType Name="TipDjelatnika">
+    <Key>
+      <PropertyRef Name="IDTipDjelatnika" />
+    </Key>
+    <Property Name="IDTipDjelatnika" Type="Byte" Nullable="false" />
+    <Property Name="Naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Djelatniks" Relationship="Self.FKTipDjelatnika" FromRole="TipDjelatnika" ToRole="Djelatnik" />
+  </EntityType>
+  <Association Name="FKDjelatnik">
+    <End Role="Djelatnik" Type="Self.Djelatnik" Multiplicity="1" />
+    <End Role="ProjektDjelatnik" Type="Self.ProjektDjelatnik" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Djelatnik">
+        <PropertyRef Name="IDDjelatnik" />
+      </Principal>
+      <Dependent Role="ProjektDjelatnik">
+        <PropertyRef Name="DjelatnikID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKTim">
+    <End Role="Tim" Type="Self.Tim" Multiplicity="0..1" />
+    <End Role="Djelatnik" Type="Self.Djelatnik" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tim">
+        <PropertyRef Name="IDTim" />
+      </Principal>
+      <Dependent Role="Djelatnik">
+        <PropertyRef Name="TimID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKTipDjelatnika">
+    <End Role="TipDjelatnika" Type="Self.TipDjelatnika" Multiplicity="1" />
+    <End Role="Djelatnik" Type="Self.Djelatnik" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipDjelatnika">
+        <PropertyRef Name="IDTipDjelatnika" />
+      </Principal>
+      <Dependent Role="Djelatnik">
+        <PropertyRef Name="TipDjelatnikaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKKlijent">
+    <End Role="Klijent" Type="Self.Klijent" Multiplicity="1" />
+    <End Role="Projekt" Type="Self.Projekt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klijent">
+        <PropertyRef Name="IDKlijent" />
+      </Principal>
+      <Dependent Role="Projekt">
+        <PropertyRef Name="KlijentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKProjekt">
+    <End Role="Projekt" Type="Self.Projekt" Multiplicity="1" />
+    <End Role="ProjektDjelatnik" Type="Self.ProjektDjelatnik" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projekt">
+        <PropertyRef Name="IDProjekt" />
+      </Principal>
+      <Dependent Role="ProjektDjelatnik">
+        <PropertyRef Name="ProjektID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PRABAZAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Djelatniks" EntityType="Self.Djelatnik" />
+    <EntitySet Name="Klijents" EntityType="Self.Klijent" />
+    <EntitySet Name="Projekts" EntityType="Self.Projekt" />
+    <EntitySet Name="ProjektDjelatniks" EntityType="Self.ProjektDjelatnik" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Tims" EntityType="Self.Tim" />
+    <EntitySet Name="TipDjelatnikas" EntityType="Self.TipDjelatnika" />
+    <AssociationSet Name="FKDjelatnik" Association="Self.FKDjelatnik">
+      <End Role="Djelatnik" EntitySet="Djelatniks" />
+      <End Role="ProjektDjelatnik" EntitySet="ProjektDjelatniks" />
+    </AssociationSet>
+    <AssociationSet Name="FKTim" Association="Self.FKTim">
+      <End Role="Tim" EntitySet="Tims" />
+      <End Role="Djelatnik" EntitySet="Djelatniks" />
+    </AssociationSet>
+    <AssociationSet Name="FKTipDjelatnika" Association="Self.FKTipDjelatnika">
+      <End Role="TipDjelatnika" EntitySet="TipDjelatnikas" />
+      <End Role="Djelatnik" EntitySet="Djelatniks" />
+    </AssociationSet>
+    <AssociationSet Name="FKKlijent" Association="Self.FKKlijent">
+      <End Role="Klijent" EntitySet="Klijents" />
+      <End Role="Projekt" EntitySet="Projekts" />
+    </AssociationSet>
+    <AssociationSet Name="FKProjekt" Association="Self.FKProjekt">
+      <End Role="Projekt" EntitySet="Projekts" />
+      <End Role="ProjektDjelatnik" EntitySet="ProjektDjelatniks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

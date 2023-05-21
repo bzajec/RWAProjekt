@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PRABAZAModelStoreContainer" CdmEntityContainer="PRABAZAEntities">
+    <EntitySetMapping Name="Djelatniks">
+      <EntityTypeMapping TypeName="PRABAZAModel.Djelatnik">
+        <MappingFragment StoreEntitySet="Djelatnik">
+          <ScalarProperty Name="IDDjelatnik" ColumnName="IDDjelatnik" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DatumZaposlenja" ColumnName="DatumZaposlenja" />
+          <ScalarProperty Name="Zaporka" ColumnName="Zaporka" />
+          <ScalarProperty Name="TipDjelatnikaID" ColumnName="TipDjelatnikaID" />
+          <ScalarProperty Name="TimID" ColumnName="TimID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Klijents">
+      <EntityTypeMapping TypeName="PRABAZAModel.Klijent">
+        <MappingFragment StoreEntitySet="Klijent">
+          <ScalarProperty Name="IDKlijent" ColumnName="IDKlijent" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projekts">
+      <EntityTypeMapping TypeName="PRABAZAModel.Projekt">
+        <MappingFragment StoreEntitySet="Projekt">
+          <ScalarProperty Name="IDProjekt" ColumnName="IDProjekt" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="KlijentID" ColumnName="KlijentID" />
+          <ScalarProperty Name="DatumOtvaranja" ColumnName="DatumOtvaranja" />
+          <ScalarProperty Name="VoditeljProjektaID" ColumnName="VoditeljProjektaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjektDjelatniks">
+      <EntityTypeMapping TypeName="PRABAZAModel.ProjektDjelatnik">
+        <MappingFragment StoreEntitySet="ProjektDjelatnik">
+          <ScalarProperty Name="IDProjektDjelatnik" ColumnName="IDProjektDjelatnik" />
+          <ScalarProperty Name="ProjektID" ColumnName="ProjektID" />
+          <ScalarProperty Name="DjelatnikID" ColumnName="DjelatnikID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="PRABAZAModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tims">
+      <EntityTypeMapping TypeName="PRABAZAModel.Tim">
+        <MappingFragment StoreEntitySet="Tim">
+          <ScalarProperty Name="IDTim" ColumnName="IDTim" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="DatumKreiranja" ColumnName="DatumKreiranja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipDjelatnikas">
+      <EntityTypeMapping TypeName="PRABAZAModel.TipDjelatnika">
+        <MappingFragment StoreEntitySet="TipDjelatnika">
+          <ScalarProperty Name="IDTipDjelatnika" ColumnName="IDTipDjelatnika" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

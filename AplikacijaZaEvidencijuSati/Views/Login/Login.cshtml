@@ -1,0 +1,55 @@
+﻿@model AplikacijaZaEvidencijuSati.Djelatnik
+@{
+    ViewBag.Title = "Login";
+}
+
+
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+    <fieldset style="text-align:center">
+        <legend style="font-size:3rem; font-weight:600; color:rgb(51, 122, 183);font-family:'Franklin Gothic'">Login</legend>
+
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @if (@ViewBag.Message != null)
+        {
+            <div style="border: 1px solid red">
+                @ViewBag.Message
+            </div>
+        }
+        <div class="container">
+            <div style="" class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <table class="table-condensed table-responsive">
+                        <tr>
+                            <td>@Html.LabelFor(d => d.Email)</td>
+                            <td>@Html.TextBoxFor(d => d.Email)</td>
+                            <td>@Html.ValidationMessageFor(d => d.Email)</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>
+                                @Html.LabelFor(d => d.Zaporka)
+                            </td>
+                            <td>
+                                @Html.PasswordFor(d => d.Zaporka)
+                            </td>
+                            <td>
+                                @Html.ValidationMessageFor(d => d.Zaporka)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="Login" class="btn btn-primary" style="margin-top:1rem" />
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </fieldset>
+}

@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron" style="background-color:lightskyblue">
+    <h1 style="text-align:center">Aplikacija za evidenciju radnih sati</h1>
+</div>
+
+<div class="container" style="text-align: center" >
+    <div class="row">
+        <div class="col align-self-start">
+            <h2>Satnice</h2>
+            <p>Upis radnih sati</p>
+            <button class="btn btn-primary" onclick="window.location.href='@Url.Action("Index","Home")'">Pregled</button>
+        </div>
+        <div class="col align-self-center">
+            <h2>Profil djelatnika</h2>
+            <p>Ovjede se može promjeniti šifra</p>
+            <button class="btn btn-primary" onclick="window.location.href='@Url.Action("UserDash","Profil")'">Pregled</button>
+        </div>
+        <div class="col align-self-end">
+            <h2>Projekti</h2>
+            <p>Popis svih projekata</p>
+            <button class="btn btn-primary" onclick="window.location.href='@Url.Action("Index","Projekt")'">Pregled</button>
+        </div>
+    </div>
+</div>
+

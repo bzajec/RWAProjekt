@@ -1,0 +1,131 @@
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AplikacijaZaEvidencijuSati.dll.config
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AplikacijaZaEvidencijuSati.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AplikacijaZaEvidencijuSati.pdb
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csc.exe
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csc.exe.config
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csc.rsp
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csi.exe
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csi.exe.config
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csi.rsp
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\vbc.exe
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\vbc.exe.config
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\vbc.rsp
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Antlr3.Runtime.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\EntityFramework.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\EntityFramework.SqlServer.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Newtonsoft.Json.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Helpers.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Mvc.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Optimization.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Razor.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\WebGrease.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\EntityFramework.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\EntityFramework.SqlServer.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Helpers.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Mvc.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Optimization.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Razor.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Newtonsoft.Json.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Antlr3.Runtime.pdb
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\obj\Debug\AplikacijaZaEvidencijuSati.csprojAssemblyReference.cache
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\obj\Debug\AplikacijaZaEvidencijuSati.csproj.CopyComplete
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\obj\Debug\AplikacijaZaEvidencijuSati.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\obj\Debug\AplikacijaZaEvidencijuSati.pdb
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Buffers.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Memory.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AutoMapper.dll
+C:\Users\Bruno\Desktop\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AutoMapper.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AplikacijaZaEvidencijuSati.dll.config
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AplikacijaZaEvidencijuSati.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AplikacijaZaEvidencijuSati.pdb
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csc.exe
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csc.exe.config
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csc.rsp
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csi.exe
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csi.exe.config
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\csi.rsp
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Buffers.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Memory.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\vbc.exe
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\vbc.exe.config
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\vbc.rsp
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Antlr3.Runtime.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AutoMapper.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\EntityFramework.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\EntityFramework.SqlServer.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Newtonsoft.Json.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Helpers.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Mvc.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Optimization.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Razor.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\WebGrease.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\AutoMapper.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\EntityFramework.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\EntityFramework.SqlServer.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Newtonsoft.Json.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Helpers.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Mvc.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Optimization.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.Razor.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\bin\Antlr3.Runtime.pdb
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\obj\Debug\AplikacijaZaEvidencijuSati.csproj.AssemblyReference.cache
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\obj\Debug\AplikacijaZaEvidencijuSati.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\obj\Debug\AplikacijaZaEvidencijuSati.csproj.CopyComplete
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\obj\Debug\AplikacijaZaEvidencijuSati.dll
+C:\Users\Bruno\Desktop\Projekti za git\RWAProjekt\AplikacijaZaEvidencijuSati\AplikacijaZaEvidencijuSati\obj\Debug\AplikacijaZaEvidencijuSati.pdb
